@@ -25,14 +25,21 @@ Este repositório contém uma série de exercícios e notebooks para aprender e 
 │       ├── condicional.ipynb
 │       ├── estrutura_dados.ipynb
 │       └── tipos_python.ipynb
-└── aula_2
+├── aula_2
+│   └── exercicios
+│       ├── README.md
+│       ├── py2_ex1.py
+│       ├── py2_ex2.py
+│       ├── py2_ex3.py
+│       ├── py2_ex4.py
+│       └── py2_ex5.py
+└── aula_3
     └── exercicios
         ├── README.md
-        ├── py2_ex1.py
-        ├── py2_ex2.py
-        ├── py2_ex3.py
-        ├── py2_ex4.py
-        └── py2_ex5.py
+        ├── py3_ex1.py
+        ├── py3_ex2.py
+        ├── py3_ex3.py
+        └── py3_ex4.py
 ```
 
 ## Descrição das Aulas
@@ -61,6 +68,15 @@ A segunda aula avança para conceitos intermediários de Python, incluindo o uso
     - Uso de decoradores (`log_function_calls` e `cache_results`) para registro e cache de funções.
     - Encapsulamento e controle de acesso em classes com a classe `ContaBancaria`.
 
+### Aula 3
+A terceira aula explora técnicas avançadas de cálculo numérico, gradiente descendente e backpropagation. Os exercícios são mais desafiadores e ideais para quem já possui uma boa base de Python e deseja praticar habilidades matemáticas e computacionais.
+
+- **Exercícios**:
+  - `py3_ex1.py`: Encontrar o mínimo de um polinômio de segundo grau utilizando o método do gradiente descendente.
+  - `py3_ex2.py`: Soma dos elementos de uma matriz \( N \times M \) utilizando broadcasting e loops.
+  - `py3_ex3.py`: Cálculo e visualização gráfica de um polinômio de terceiro grau e sua derivada.
+  - `py3_ex4.py`: Implementação de backpropagation em uma função de ativação ReLU para aprendizado de redes neurais simples.
+
 ## Como Executar
 
 1. Clone o repositório:
@@ -71,10 +87,10 @@ A segunda aula avança para conceitos intermediários de Python, incluindo o uso
 
 2. Navegue até a pasta de um exercício específico e execute o script:
    ```sh
-   python aula_1/exercicios/py1_ex1.py
+   python aula_3/exercicios/py3_ex1.py
    ```
 
-3. Abra os notebooks da pasta `notebooks` no Jupyter Notebook ou JupyterLab para explorar os conteúdos interativos:
+3. Explore os notebooks interativos utilizando Jupyter Notebook ou JupyterLab:
    ```sh
-   jupyter notebook aula_1/notebooks/tipos_python.ipynb
+   jupyter notebook
    ```
